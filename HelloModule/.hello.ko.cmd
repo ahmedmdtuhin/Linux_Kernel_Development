@@ -1,0 +1,1 @@
+cmd_/home/mazhar/Desktop/HelloModule/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/mazhar/Desktop/HelloModule/hello.ko /home/mazhar/Desktop/HelloModule/hello.o /home/mazhar/Desktop/HelloModule/hello.mod.o;  true
